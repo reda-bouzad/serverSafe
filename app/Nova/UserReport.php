@@ -28,7 +28,7 @@ class UserReport extends Resource
 
     public static function label()
     {
-        return "Utilisateur";
+        return "Utilisateur Report";
     }
 
     /**

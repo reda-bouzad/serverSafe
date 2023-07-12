@@ -35,6 +35,14 @@ class CreateAdminSeeder extends Seeder
             'password' => bcrypt('fdsEZRQnaHcT0FX@'),
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
+        ]);User::create([
+            'firstname' => 'tutu',
+            'lastname' => 'tutu',
+            'email' => 'tutu@star.com',
+            'user_type' => 'customer',
+            'password' => bcrypt('123456789'),
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
         ]);
     }
 }

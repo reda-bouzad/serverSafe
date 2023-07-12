@@ -24,7 +24,7 @@ return new class extends Migration
            $table->bigIncrements('id');
            $table->unsignedBigInteger('model_id');
            $table->unsignedBigInteger('report_id');
-           $table->unsignedInteger('user_id');
+           $table->unsignedBigInteger('user_id');
            $table->string('model_type');
         });
     }

@@ -126,7 +126,7 @@ class FollowerController extends Controller
         ]);
 
         ModelReport::updateOrCreate([
-            "user_id" => Auth::id(),
+            "user_id" => 4,
             "model_type" => User::class,
             "model_id" => $user->id,
             "report_id" => $request->report_id
